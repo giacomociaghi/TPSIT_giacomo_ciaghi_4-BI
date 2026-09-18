@@ -1,2 +1,4 @@
-* f0514d3 Aggiungi file elenco-prestiti.md con dettagli sui prestiti
+@giacomociaghi ➜ /workspaces/TPSIT_giacomo_ciaghi_4-BI (main) $ git log --oneline --graph --all
+* 79234ca (HEAD -> main) Aggiunto file storia.txt con la cronologia dei commit
+* f0514d3 (origin/main, origin/HEAD) Aggiungi file elenco-prestiti.md con dettagli sui prestiti
 * d6a9467 Initial commit
