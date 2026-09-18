@@ -1,0 +1,2 @@
+* f0514d3 Aggiungi file elenco-prestiti.md con dettagli sui prestiti
+* d6a9467 Initial commit
