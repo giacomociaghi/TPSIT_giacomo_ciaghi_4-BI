@@ -6,3 +6,7 @@
 ## 2. Scarto modifiche area di lavoro
 - **Comando usato:** git restore <file> (o git checkout -- <file>)
 - **Effetto osservato:** Le modifiche non salvate nell'area di lavoro vengono eliminate definitivamente, riportando lo stato del file a quello dell'ultimo commit.
+
+## 3. Correzione ultimo messaggio di commit
+- **Comando usato:** git commit --amend -m "Nuovo Messaggio"
+- **Effetto osservato:** L'ultimo commit nella storia viene sostituito e sovrascritto con le nuove modifiche e il messaggio corretto, senza generare commit duplicati o spuri.
