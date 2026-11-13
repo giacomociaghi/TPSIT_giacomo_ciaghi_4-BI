@@ -1,1 +1,15 @@
-<p>scheda-dispositivo works!</p>
+<h2>{{ dispositivo.marca }} {{ dispositivo.modello }}</h2>
+<p>Inventario: {{ dispositivo.inventario }}</p>
+<p>Tipo: {{ dispositivo.tipo }}</p>
+<p>Anno: {{ dispositivo.anno }}</p>
+<p>Stato: {{ dispositivo.stato }}</p>
+<p><button [disabled]="dispositivo.stato == 'in prestito'"  >chiudi prestito</button></p>
+<article class="scheda"
+[attr.data-inventario]="dispositivo.inventario"
+[attr.aria-label]="'Dispositivo ' + dispositivo.inventario"
+[class.in-prestito]="dispositivo.stato == 'in prestito'"
+[class.manutenzione]="dispositivo.stato == 'manutenzione'"
+[class.disponibile]="dispositivo.stato == 'disponibile'"
+>
+
+</article>

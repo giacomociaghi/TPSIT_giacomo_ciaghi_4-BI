@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IDispositivo } from '../dati/modelli/i-dispositivo';
 
 @Component({
   imports: [],
@@ -6,4 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './scheda-dispositivo.css',
   templateUrl: './scheda-dispositivo.html',
 })
-export class SchedaDispositivo {}
+export class SchedaDispositivo {
+  dispositivo: IDispositivo = {
+    id: 2,
+    inventario: 'INV-0102',
+    tipo: 'notebook',
+    marca: 'Lenovo',
+    modello: 'ThinkPad L14',
+    anno: 2023,
+    stato: 'disponibile',
+  };
+}
